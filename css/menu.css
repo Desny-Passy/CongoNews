@@ -1,0 +1,148 @@
+.accueil{
+    width: 100%;
+    height: 200px;
+    background-image: url("../image/techno.avif");
+    background-position:center;
+    background-size: cover;
+}
+.sante_titre{
+    background-image: url('../image/sante_envi.avif');
+    width: 100%;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+}
+.economie{
+    background-image: url('../image/economie.avif');
+    width: 100%;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+}
+.culture{
+    background-image: url('../image/culture.avif');
+    width: 100%;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+}
+.accueil_titre{
+    width: 100%;
+    height: 100%;
+    background-color: #47030362;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.accueil_titre h1{
+    font-size: 4.5rem;
+    color: #fff;
+    text-shadow: 14px 11px 8px black;
+}
+
+
+.contenu {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.ligne {
+    display: block;
+    width: 200px;
+    height: 4px;
+    background-color: brown;
+    margin: 10px 0;
+}
+
+.contenu h1 {
+    font-size: 2.5rem;
+}
+
+.contenu p {
+    text-align: justify;
+}
+
+.image_descr {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.article,.connexe .containers {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descrp_article {
+    width: 58%;
+}
+
+.image_article {
+    width: 40%;
+
+}
+
+.image_article img, .connexe .info_connexe img {
+    width: 100%;
+    height: 200px;
+}
+.info_connexe img {
+    height: 60%;
+}
+.connexe{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+}
+.connexe .containers{
+        height: auto;
+}
+.info_connexe{
+    width: 24%;
+    background-color: #fff;
+    height: 100%;
+    box-shadow: 0 0 1px 0 #858383;
+    border-radius: 5px;
+}
+.description{
+    padding: 8px;
+}
+.info_connexe a{
+    display: block;
+    width: 120px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: rgba(139, 0, 0, 0.575);
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+.titre_oms{
+    width: 100%;
+    background-color: #00000021;
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+}
+.video{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.video video{
+    width: 100%;
+}
+.video video, .video h3{
+    width: 49%;
+}
+.art .article_desc{
+    padding: 20px;
+}
+
+  

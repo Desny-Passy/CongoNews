@@ -1,0 +1,280 @@
+@media(max-width:770px) {
+    * {
+        margin: 0;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .milieu-header {
+        padding: 10px 10px;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .reseau_sociaux a,
+    .date-links li {
+        font-size: 10px;
+    }
+
+    .menu-container {
+        position: static;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .recherche input {
+        display: block;
+        width: 100%;
+        height: 25px;
+        background-color: beige;
+        border-radius: 6px;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .recherche img {
+        display: none;
+    }
+
+    .flash_info {
+        flex-direction: column;
+        width: 94%;
+        margin: 15px 3%;
+    }
+
+    .flash_story {
+        width: 100%;
+
+    }
+
+    .Story_info {
+        width: 50%;
+    }
+
+    .info_urgent {
+        padding-right: 0;
+        margin-top: 5px;
+    }
+
+    .info_urgent img {
+        width: 90px;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+    .art_principal {
+        width: 100%;
+        height: auto;
+        margin: 0 2% 10px 2%;
+        background-position: center;
+    }
+
+    .titre_main h2 {
+        font-size: 25px;
+    }
+
+    .titre_desc,
+    .titre_editor {
+        display: none;
+    }
+
+    .aside_titre {
+        display: block;
+        width: 100%;
+        margin: 10px;
+        margin-top: 15px;
+    }
+
+
+    .aside_titre span {
+        display: block;
+        width: 100px;
+        height: 10px;
+        border-bottom: 4px solid rgba(185, 5, 5, 0.863);
+    }
+
+
+    .aside_flash {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .aside_business {
+        width: 49%;
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    .aside_business p,
+    .aside_world p {
+        font-size: 12px;
+    }
+
+    .aside_world {
+        width: 49%;
+        height: 200px;
+        margin-top: 0;
+    }
+
+    .liens_business,
+    .lien_world {
+        margin-top: 90px;
+    }
+
+    .detail_flash {
+        width: 100%;
+        height: auto;
+    }
+
+    .detail_story {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(248, 247, 244);
+        margin-top: 5px;
+    }
+
+
+    .img_detail {
+        width: 40%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        margin-right: 6px;
+    }
+
+    .img_detail img {
+        width: 100%;
+        height: auto;
+    }
+
+    .detail_nombre {
+        display: none;
+    }
+
+    .histoire_future {
+        padding: 30px 3% 0px 3%;
+    }
+
+    .desc_futur {
+        flex-direction: column;
+        align-items: center;
+        font-size: 9px;
+    }
+
+    .image_future {
+        width: 80%;
+
+    }
+
+    .image_future .logo_futur img {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+
+
+    .desc_futur img {
+        height: 150px;
+
+    }
+
+    .desc_futur p {
+        font-size: 10px;
+    }
+
+    .descr_futur a {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .descr_futur {
+        margin-top: 25%;
+    }
+
+
+    .info_container,
+    .article,
+    .connexe .containers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article .image_article,
+    .article .descrp_article,
+    .connexe .containers .info_connexe {
+        width: 100%;
+    }
+
+    .connexe {
+        padding: 20px;
+    }
+
+    .containers .info_connexe {
+        margin-bottom: 10px;
+    }
+
+    .adresse,
+    .apropos,
+    .liens,
+    .suscrire {
+        width: 85%;
+        border: none;
+        padding: 20px;
+        border-bottom: 1px solid #ffffff;
+        margin-bottom: 10px;
+    }
+
+    .suscrire {
+        border: none;
+    }
+
+    .culture .accueil_titre h1,
+    .accueil .accueil_titre h1,
+    .sante_titre .accueil_titre h1,
+    .economie .accueil_titre h1 {
+        font-size: 3rem;
+    }
+
+    .contenu_culture {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenu h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .titre_oms{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+}
