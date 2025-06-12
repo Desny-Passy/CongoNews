@@ -366,7 +366,6 @@ body {
 
 /* Dernière partie de la section qui comprend 4 lignes; composées d'images et du texte */
 .detail_story {
-    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -387,6 +386,7 @@ body {
     margin-right: 7px;
     margin-bottom: 0px;
     align-items: center;
+    position: relative;
 }
 
 .img_detail img {
