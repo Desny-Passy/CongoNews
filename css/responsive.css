@@ -361,5 +361,50 @@
         }
     }
 
+    .menu-hamburger {
+        display: block;
+        font-size: 30px;
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        right: 10px;
+        top: 120px;
+        font-weight: bold;
+    }
+    .bi-list{
+        color: white;
+        font-weight: bolder;
+    }
+    .menu-hamburger input[type="checkbox"] {
+        appearance: none;
+        padding: 5px;
+        scale: 2;
+    }
+    
+    .menu-container{
+        position: absolute;
+        left: -100%;
+        transition: all 0.7s linear;
+    }
+    .active{
+        left: 0;
+        width: 100%;
+    }
+    .fermer{
+        left: 100%;
+    }
+    .bi-x{
+        position: absolute;
+        right: 10px;
+        bottom: 0;
+        padding: 20px;
+        scale: 1.5;
+        color: white;
+        font-weight: bold;
+    }
+   
+
 
 }
