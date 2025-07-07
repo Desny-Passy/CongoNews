@@ -228,12 +228,16 @@ body {
     width: 100%;
 }
 
+.bi-list{
+    display: none;
+}
+
 /* Animation des sections des pages */
 section {
    animation: animation 0.5s ease-in-out forwards;
    animation-timeline: view();
-   animation-range-start: cover 0%;
-    animation-range-end: cover 100%;
+   animation-range-start: contain 0%;
+    animation-range-end: contain 100%;
 }
 @keyframes animation {
     from {
