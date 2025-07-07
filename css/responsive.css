@@ -380,17 +380,19 @@
     .menu-hamburger input[type="checkbox"] {
         appearance: none;
         padding: 5px;
-        scale: 2;
+        scale: 2.5;
     }
     
     .menu-container{
         position: absolute;
         left: -100%;
         transition: all 0.7s linear;
+        height: 100vh;
     }
     .active{
         left: 0;
         width: 100%;
+        
     }
     .fermer{
         left: 100%;
@@ -400,6 +402,7 @@
         right: 10px;
         bottom: 0;
         padding: 20px;
+        cursor: pointer;
         scale: 1.5;
         color: white;
         font-weight: bold;

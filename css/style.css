@@ -233,7 +233,7 @@ body {
 }
 
 /* Animation des sections des pages */
-.histoire_future, .info_section{
+.histoire_future, .info_section, .connexe, article, h1{
    animation: animation linear;
    animation-timeline: view();
    animation-range-start: cover 0%;
@@ -248,6 +248,9 @@ body {
         opacity: 1;
         transform: translateX(0);
     }
+}
+.bi-x{
+    display: none;
 }
 
 .art_principal {
