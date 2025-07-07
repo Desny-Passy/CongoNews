@@ -234,15 +234,15 @@ body {
 
 /* Animation des sections des pages */
 main {
-   animation: animation ease-in-out forwards;
+   animation: animation linear;
    animation-timeline: view();
    animation-range-start: contain 0%;
-    animation-range-end: contain 100%;
+    animation-range-end: contain 30%;
 }
 @keyframes animation {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(100%);
     }
     to {
         opacity: 1;
