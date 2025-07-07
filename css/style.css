@@ -233,7 +233,7 @@ body {
 }
 
 /* Animation des sections des pages */
-section {
+main {
    animation: animation 0.5s ease-in-out forwards;
    animation-timeline: view();
    animation-range-start: contain 0%;
