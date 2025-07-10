@@ -384,7 +384,7 @@
         color: white;
         font-weight: bolder;
     }
-    .menu-hamburger input[type="checkbox"], .menu-container input[type="checkbox"] {
+    .menu-hamburger input[type="checkbox"]{
         appearance: none;
         padding: 5px;
         scale: 2.5;
