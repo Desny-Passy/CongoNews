@@ -233,20 +233,39 @@ body {
 }
 
 /* Animation des sections des pages */
-.histoire_future, .info_section, .connexe, article, h1{
+.histoire_future, .connexe, article, .info_connexe, h1{
    animation: animation linear;
    animation-timeline: view();
    animation-range-start: cover 0%;
-    animation-range-end: cover 30%;
+    animation-range-end: cover 10%;
+    animation-delay: 2s;
 }
+.info_section, .info_connexe, h1{
+     animation: fadein linear;
+   animation-timeline: view();
+   animation-range-start: cover 0%;
+    animation-range-end: cover 30%;
+    animation-delay: 2s;
+}
+
 @keyframes animation {
     from {
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translatey(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translatey(0);
     }
 }
 .bi-x{
@@ -324,8 +343,8 @@ body {
 .date_art {
     margin: 6px;
     color: white;
-    top: 0;
-    right: 0;
+    bottom: 40%;
+    left: 0;
     position: absolute;
 }
 
