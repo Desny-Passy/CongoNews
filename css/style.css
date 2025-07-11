@@ -240,12 +240,23 @@ body {
     animation-range-end: cover 10%;
     animation-delay: 2s;
 }
-.info_section, .info_connexe, h1{
+.info_section, .info_connexe, h1,.image_future{
      animation: fadein linear;
    animation-timeline: view();
    animation-range-start: cover 0%;
     animation-range-end: cover 30%;
     animation-delay: 2s;
+}
+.accueil_titre{
+    animation: anime 2S ease-in-out forwards;
+}
+@keyframes anime{
+    0%,50% {
+        opacity: 0;
+    }
+    50%,100%{
+        opacity: 1;
+    }
 }
 
 @keyframes animation {
@@ -280,6 +291,7 @@ body {
     text-align: left;
     color: black;
     margin-right: 10px;
+    border-radius: 8px;
 }
 
 .art_principal img {
@@ -418,6 +430,7 @@ body {
     padding-right: 5px;
     margin-bottom: 5px;
     background-color: white;
+    border-radius: 8px;
 }
 
 .detail_story p {
@@ -471,6 +484,7 @@ body {
     display: block;
     width: 100%;
     padding: 30px 3% 0px 3%;
+    border-radius: 8px;
 }
 
 .desc_futur {
