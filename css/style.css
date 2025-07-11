@@ -292,6 +292,7 @@ body {
     color: black;
     margin-right: 10px;
     border-radius: 8px;
+    box-shadow: -1px 4px 0 #0000002b
 }
 
 .art_principal img {
@@ -386,6 +387,7 @@ body {
     background-size: cover;
     padding: 10px;
     color: white;
+    box-shadow: -1px 4px 0 #0000002b
 }
 
 .aside_business,
@@ -431,6 +433,7 @@ body {
     margin-bottom: 5px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: -1px 4px 0 #0000002b
 }
 
 .detail_story p {
@@ -497,6 +500,8 @@ body {
 .image_future {
     width: 20%;
     margin-right: 5px;
+    border-radius: 8px;
+    box-shadow: -1px 4px 0 #0000002b
 }
 
 .image_future img {
