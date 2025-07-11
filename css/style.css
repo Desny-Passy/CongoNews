@@ -233,7 +233,7 @@ body {
 }
 
 /* Animation des sections des pages */
-.histoire_future, .connexe, article, .info_connexe, h1{
+.histoire_future, .connexe, article, .info_connexe, h1, .image_future{
    animation: animation linear;
    animation-timeline: view();
    animation-range-start: cover 0%;
