@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <meta name="description" content="Découvrez sur Congo news toute l’actualité société et culture au Congo : traditions, événements, tendances et faits marquants. Congo news vous informe en temps réel sur la richesse culturelle et la vie sociale congolaise." />
+    <meta name="description"
+        content="Découvrez sur Congo news toute l’actualité société et culture au Congo : traditions, événements, tendances et faits marquants. Congo news vous informe en temps réel sur la richesse culturelle et la vie sociale congolaise." />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
 
 <body>
     <!-- En tête -->
-   <header>
+    <header>
         <div class="reseau-date">
             <div class="date-links">
                 <ul class="date-links">
@@ -67,15 +68,23 @@
             <li><a href="sante.html">Sante</a></li>
             <li><a href="culture.html">Société/Culture</a></li>
         </ul>
-        <div class="recherche">
+       <div class="recherche">
             <input type="search" name="rechercher" id="" placeholder="Rechercher....">
-            <img src="loupe.png" alt="Rechercher" width="20px">
-
+            <img src="loupe.png" alt="Rechercher" width="20px" id="btnRecherche">
+        </div>
+        <!-- Fenêtre modale -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                    <h2>Que recherchez-vous ?</h2>
+                <input type="text" placeholder="Tapez votre recherche...">
+                <button type="submit">Rechercher</button>
+            </div>
         </div>
     </div>
-    
+
     <div class="menu-hamburger">
-         <input type="checkbox" class="bi bi-list">
+        <input type="checkbox" class="bi bi-list">
     </div>
     <!-- Fin de l'entête -->
 
@@ -86,29 +95,57 @@
     </section>
     <!-- contenue -->
     <section class="contenu">
-        <h1>🎭 La rumba congolaise : patrimoine commun, fierté nationale</h1>
-        <span class="ligne"></span>
-        <article class="image_descr">
-            <div class="article">
-                <div class="image_article">
-                    <img src="image/rumba.jpg" alt="">
-                    <img src="image/rumba congolaise.jpeg" alt="">
+        <div class="rumba">
+            <h1>🎭 La rumba congolaise : patrimoine commun, fierté nationale</h1>
+            <span class="ligne"></span>
+            <article class="image_descr">
+                <div class="article">
+                    <div class="image_article">
+                        <img src="image/rumba.jpg" alt="">
+                        <img src="image/rumba congolaise.jpeg" alt="">
+                    </div>
+                    <div class="descrp_article">
+                        <p>
+                            Depuis l’inscription de la rumba congolaise au patrimoine immatériel de l’UNESCO en 2021,
+                            les
+                            Congo news ont largement relayé cette reconnaissance internationale, qui a renforcé la
+                            fierté
+                            nationale en République démocratique du Congo et à Brazzaville. Dans les actualités
+                            congolaises,
+                            on rappelle que la rumba possède ici une saveur unique : elle accompagne les naissances, les
+                            mariages, les deuils, les campagnes politiques et les discussions de quartier. Elle reste
+                            une
+                            mémoire vivante, un langage populaire, et un sujet incontournable dans les informations
+                            Congo.
+
+                            Des artistes comme Roga Roga, Doudou Copa et Ballou Canta incarnent cette tradition musicale
+                            à
+                            Brazzaville, tout en renouvelant ses codes esthétiques et sonores. Selon les dernières
+                            nouvelles
+                            du Congo, la capitale organise régulièrement des concerts géants et des festivals où la
+                            rumba
+                            est à l’honneur, notamment sur les quais du fleuve Congo. Ces événements culturels,
+                            largement
+                            couverts dans les news Congo, rapprochent les générations et mettent en valeur le patrimoine
+                            congolais.
+
+                            Au-delà du divertissement, la rumba est aussi un outil de critique sociale et politique. Les
+                            Congo news évoquent souvent ses paroles engagées, qui abordent injustices, amours
+                            contrariés,
+                            ruptures sociales et espoirs collectifs. Dans les rubriques « Congo en direct » ou
+                            « actualités
+                            Congo », on souligne combien ce rythme langoureux cache des messages puissants. À
+                            Brazzaville,
+                            la rumba reste donc un espace privilégié pour dire l’indicible, et continue d’alimenter les
+                            informations congolaises au quotidien.
+                        </p>
+                    </div>
                 </div>
-                <div class="descrp_article">
-                    <p>
-                       Depuis l’inscription de la rumba congolaise au patrimoine immatériel de l’UNESCO en 2021, les Congo news ont largement relayé cette reconnaissance internationale, qui a renforcé la fierté nationale en République démocratique du Congo et à Brazzaville. Dans les actualités congolaises, on rappelle que la rumba possède ici une saveur unique : elle accompagne les naissances, les mariages, les deuils, les campagnes politiques et les discussions de quartier. Elle reste une mémoire vivante, un langage populaire, et un sujet incontournable dans les informations Congo.
-
-Des artistes comme Roga Roga, Doudou Copa et Ballou Canta incarnent cette tradition musicale à Brazzaville, tout en renouvelant ses codes esthétiques et sonores. Selon les dernières nouvelles du Congo, la capitale organise régulièrement des concerts géants et des festivals où la rumba est à l’honneur, notamment sur les quais du fleuve Congo. Ces événements culturels, largement couverts dans les news Congo, rapprochent les générations et mettent en valeur le patrimoine congolais.
-
-Au-delà du divertissement, la rumba est aussi un outil de critique sociale et politique. Les Congo news évoquent souvent ses paroles engagées, qui abordent injustices, amours contrariés, ruptures sociales et espoirs collectifs. Dans les rubriques « Congo en direct » ou « actualités Congo », on souligne combien ce rythme langoureux cache des messages puissants. À Brazzaville, la rumba reste donc un espace privilégié pour dire l’indicible, et continue d’alimenter les informations congolaises au quotidien.
-                    </p>
-                </div>
-            </div>
-
-        </article>
-
-
-        <div class="titre_oms contenu_culture">
+            </article>
+        </div>
+        
+       <div class="sape">
+         <div class="titre_oms contenu_culture">
             <img src="image/sape.jpg" alt="">
             <h1>🎩 La Sape brazzavilloise : élégance et codes sociaux</h1>
         </div>
@@ -117,7 +154,15 @@ Au-delà du divertissement, la rumba est aussi un outil de critique sociale et p
 
                 <div class="descrp_article">
                     <p>
-                       La Sape, ou Société des Ambianceurs et des Personnes Élégantes, racontée dans de nombreuses Congo news, est née à Bacongo, à Brazzaville, avant de voyager à Paris, Kinshasa et bien au-delà. Plus qu’un simple style vestimentaire, elle incarne une philosophie de vie et une esthétique de la dignité, souvent mise en lumière dans les actualités congolaises, et adoptée par des hommes modestes qui investissent tout dans l’élégance. Dans les rues de Brazzaville, les sapeurs défilent comme sur un podium, transformant les trottoirs en scène de théâtre, un spectacle régulièrement couvert dans les informations Congo et les news Congo. Présente dans les rubriques « Congo en direct » et « culture Congo », la Sape reste un phénomène emblématique de l’identité urbaine, célébré dans les dernières nouvelles du Congo.
+                        La Sape, ou Société des Ambianceurs et des Personnes Élégantes, racontée dans de nombreuses
+                        Congo news, est née à Bacongo, à Brazzaville, avant de voyager à Paris, Kinshasa et bien
+                        au-delà. Plus qu’un simple style vestimentaire, elle incarne une philosophie de vie et une
+                        esthétique de la dignité, souvent mise en lumière dans les actualités congolaises, et adoptée
+                        par des hommes modestes qui investissent tout dans l’élégance. Dans les rues de Brazzaville, les
+                        sapeurs défilent comme sur un podium, transformant les trottoirs en scène de théâtre, un
+                        spectacle régulièrement couvert dans les informations Congo et les news Congo. Présente dans les
+                        rubriques « Congo en direct » et « culture Congo », la Sape reste un phénomène emblématique de
+                        l’identité urbaine, célébré dans les dernières nouvelles du Congo.
 
 
                         .</p>
@@ -128,9 +173,17 @@ Au-delà du divertissement, la rumba est aussi un outil de critique sociale et p
                         valeur dans un monde où les statuts sont figés. C’est un acte de résistance par la beauté dans
                         un contexte de précarité.
                     </p>
+                    <p>
+                        La Sape repose sur des codes stricts : combinaisons de couleurs, marques occidentales prisées
+                        (souvent détournées), port altier, attitude contrôlée. Mais derrière ces apparences, la Sape est
+                        aussi une stratégie sociale et politique. Elle permet de se faire remarquer, d’affirmer sa
+                        valeur dans un monde où les statuts sont figés. C’est un acte de résistance par la beauté dans
+                        un contexte de précarité.
+                    </p>
                 </div>
                 <div class="image_article">
                     <img src="image/sape2.jpg" alt="">
+                    <img src="image/sape.jpg" alt="">
                 </div>
 
             </div>
@@ -140,8 +193,10 @@ Au-delà du divertissement, la rumba est aussi un outil de critique sociale et p
                 virales). La Sape devient un patrimoine culturel vivant, étudié dans les musées, exporté à
                 l’étranger, mais toujours enraciné à Bacongo.</p>
         </article>
+       </div>
 
-        <h1>🎨 La sculpture et l’art Kongo réinventés par la jeunesse</h1>
+        <div class="art">
+            <h1>🎨 La sculpture et l’art Kongo réinventés par la jeunesse</h1>
         <span class="ligne"></span>
         <article class="image_descr">
             <div class="article">
@@ -181,6 +236,7 @@ Au-delà du divertissement, la rumba est aussi un outil de critique sociale et p
 
             </div>
         </article>
+        </div>
 
 
     </section>
@@ -320,7 +376,8 @@ Au-delà du divertissement, la rumba est aussi un outil de critique sociale et p
         <p>Copyright 2025-2026 Toute reproduction interdite</p>
     </footer>
 
-     <script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="rechercher.js"></script>
 
 </body>
 

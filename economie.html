@@ -66,10 +66,18 @@
             <li><a href="sante.html">Sante</a></li>
             <li><a href="culture.html">Société/Culture</a></li>
         </ul>
-        <div class="recherche">
+       <div class="recherche">
             <input type="search" name="rechercher" id="" placeholder="Rechercher....">
-            <img src="loupe.png" alt="Rechercher" width="20px">
-
+            <img src="loupe.png" alt="Rechercher" width="20px" id="btnRecherche">
+        </div>
+        <!-- Fenêtre modale -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                    <h2>Que recherchez-vous ?</h2>
+                <input type="text" placeholder="Tapez votre recherche...">
+                <button type="submit">Rechercher</button>
+            </div>
         </div>
     </div>
     
@@ -331,6 +339,7 @@
     </footer>
 
      <script src="script.js"></script>
+     <script src="rechercher.js"></script>
 
 
 </body>
